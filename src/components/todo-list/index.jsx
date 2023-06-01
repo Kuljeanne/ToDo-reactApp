@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 import { Todo } from '../todo';
 import styles from './index.module.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 export const TodoList = () => {
 
