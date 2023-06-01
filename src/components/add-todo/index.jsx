@@ -14,8 +14,6 @@ export const AddTodo = () => {
     setValue('')
   }
 
-
-
   return (
     <div>
       <label htmlFor="todo" className={styles.label}>✏️</label>

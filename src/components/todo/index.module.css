@@ -1,11 +1,38 @@
 .item {
+  list-style: none;
   font-family: monospace;
-  cursor: pointer;
   line-height: 1.5;
   color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.completed {
+.text {
+  margin-left: 1rem;
+  flex-grow: 1;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.checkbox:checked + span {
   text-decoration: line-through;
-  color: lightgray;
+  color: #cecece;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+}
+
+.btn:active {
+  transform: scale(0.97);
 }
